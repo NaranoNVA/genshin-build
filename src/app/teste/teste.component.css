@@ -1,0 +1,52 @@
+@import 'elementos.css';
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.menuElement{
+  padding-left: 16px;
+  padding-right: 16px;
+  cursor: pointer;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.menup{
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@keyframes menuItemexpand {
+  from {
+    height: 20px;
+  }
+
+  to   {
+    height: 80px;
+  }
+}
+
+.menuPerso {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: white 3px solid;
+  transition: border 0.3s;
+  animation: menuItemexpand 0.3s linear;
+}
+
+.menuPerso:hover{
+  border-color: var(--color-active);
+  border: var(--color-active) 3px solid;
+}

@@ -1,0 +1,72 @@
+/* Animações Botoes Elementos */
+.anemo {
+  fill: #FFFFFF;
+  stroke: var(--anemo);
+  stroke-width: 0px;
+  transition: stroke-width 0.7s;
+}
+#anemo:hover   .anemo {
+  stroke-width: 2px;
+  width: 82px;
+  height: 82px;
+}
+
+.cryo {
+  fill: #FFFFFF;
+  stroke: var(--cryo);
+  stroke-width: 0px;
+  transition: stroke-width 0.7s;
+}
+#cryo:hover   .cryo {
+  stroke-width: 2px;
+}
+
+.electro {
+  fill: #FFFFFF;
+  stroke: var(--electro);
+  stroke-width: 0px;
+  transition: stroke-width 0.7s;
+}
+#electro:hover   .electro {
+  stroke-width: 2.5px;
+}
+
+.geo {
+  fill: #FFFFFF;
+  stroke: var(--geo);
+  stroke-width: 0px;
+  transition: stroke-width 0.7s;
+}
+#geo:hover  .geo {
+  stroke-width: 2px;
+}
+
+.hydro {
+  fill: #FFFFFF;
+  stroke: var(--hydro);
+  stroke-width: 0px;
+  transition: stroke-width 0.7s;
+}
+#hydro:hover   .hydro {
+  stroke-width: 2.2px;
+}
+
+.pyro {
+  fill: #FFFFFF;
+  stroke: var(--pyro);
+  stroke-width: 0px;
+  transition: stroke-width 0.7s;
+}
+#pyro:hover   .pyro {
+  stroke-width: 2px;
+}
+
+.dendro {
+  fill: #FFFFFF;
+  stroke: var(--dendro);
+  stroke-width: 0px;
+  transition: stroke-width 0.7s;
+}
+#dendro:hover   .dendro {
+  stroke-width: 2px;
+}

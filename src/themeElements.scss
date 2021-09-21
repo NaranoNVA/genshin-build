@@ -1,0 +1,108 @@
+@import 'elementsColors.scss';
+
+$color-app-primary: mat-palette($mat-pink);
+$color-app-accent:  mat-palette($mat-blue-gray);
+$color-app-warn:    mat-palette($mat-red);
+
+$color-app-hydro:    mat-palette($mat-hydro);
+$color-app-geo:    mat-palette($mat-geo);
+$color-app-cryo:    mat-palette($mat-cryo);
+$color-app-electro:    mat-palette($mat-electro);
+$color-app-anemo:    mat-palette($mat-anemo);
+$color-app-pyro:    mat-palette($mat-pyro);
+$color-app-dendro:    mat-palette($mat-pyro);
+
+$app-theme: mat-dark-theme((
+  color: (
+    primary: $color-app-primary,
+    accent: $color-app-accent,
+    warn: $color-app-warn
+  )
+));
+.theme-default {
+  @include angular-material-theme($app-theme);
+}
+
+//Hydro
+$app-theme-hydro: mat-dark-theme((
+  color: (
+    primary: $color-app-hydro,
+    accent: $color-app-accent,
+    warn: $color-app-warn
+  )
+));
+.theme-hydro {
+  @include angular-material-theme($app-theme-hydro);
+}
+
+//Geo
+$app-theme-geo: mat-dark-theme((
+  color: (
+    primary: $color-app-geo,
+    accent: $color-app-accent,
+    warn: $color-app-warn
+  )
+));
+.theme-geo {
+  @include angular-material-theme($app-theme-geo);
+}
+
+//Cryo
+$app-theme-cryo: mat-dark-theme((
+  color: (
+    primary: $color-app-cryo,
+    accent: $color-app-accent,
+    warn: $color-app-warn
+  )
+));
+.theme-cryo {
+  @include angular-material-theme($app-theme-cryo);
+}
+
+//Electro
+$app-theme-electro: mat-dark-theme((
+  color: (
+    primary: $color-app-electro,
+    accent: $color-app-accent,
+    warn: $color-app-warn
+  )
+));
+.theme-electro {
+  @include angular-material-theme($app-theme-electro);
+}
+
+//Anemo
+$app-theme-anemo: mat-dark-theme((
+  color: (
+    primary: $color-app-anemo,
+    accent: $color-app-accent,
+    warn: $color-app-warn
+  )
+));
+.theme-anemo {
+  @include angular-material-theme($app-theme-anemo);
+}
+
+//Pyro
+$app-theme-pyro: mat-dark-theme((
+  color: (
+    primary: $color-app-pyro,
+    accent: $color-app-accent,
+    warn: $color-app-warn
+  )
+));
+.theme-pyro {
+  @include angular-material-theme($app-theme-pyro);
+}
+
+//Dendro
+$app-theme-dendro: mat-dark-theme((
+  color: (
+    primary: $color-app-dendro,
+    accent: $color-app-accent,
+    warn: $color-app-warn
+  )
+));
+.theme-dendro {
+  @include angular-material-theme($app-theme-dendro);
+}

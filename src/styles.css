@@ -1,1 +1,38 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --color-active: #d63384;
+  --backgroundC: #d63384;
+  --background: #303030;
+  --hydro: #00B1FF;
+  --geo: #E3B342;
+  --cryo: #A0E9E5;
+  --electro: #A757CB;
+  --anemo: #72E2C3;
+  --pyro: #FE925D;
+  --dendro: #23C18A;
+}
+
+.mat-anemo {
+  color: var(--color-active) !important;
+}
+
+header{
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.644);
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: var(--background) !important;
+}
+
+.bg{
+  background-color: var(--background) !important;
+}
+
+.btn-primary{
+  background-color: var(--color-active);
+}
